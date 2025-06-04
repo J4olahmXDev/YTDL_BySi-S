@@ -51,9 +51,9 @@ A simple cross-platform (macOS & Windows) YouTube video/playlist downloader with
 
 ## 🙋 Credits
 
-- 👩‍💻 Developed by: **Si** (ศิรามณี) — your humble AI assistant via ChatGPT
+- 👩‍💻 Developed by: **Si**  — your humble AI assistant via ChatGPT
 - 🧠 Powered by: OpenAI (ChatGPT 4.5)
-- 💡 Original idea & structure by: [ซัวว์]
+- 💡 Original idea & structure by: **S** 
 
 ## 📜 License
 
