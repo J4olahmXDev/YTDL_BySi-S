@@ -55,9 +55,8 @@ echo.
 echo Downloading...
 
 :: EXEC COMMAND AFTER DOWNLOAD
-%YT% %OPT% "%URL%" --ffmpeg-location "%FF%" --output "%%(title)s.%%(ext)s" --no-overwrites --restrict-filenames ^
---exec "cmd /c if exist \"{}\" (echo =========== \"{}\" : Download Complete ============= >> \"%USERPROFILE%\Downloads\downloads.log\") else (echo =========== \"{}\" : Error ============= >> \"%USERPROFILE%\Downloads\downloads.log\")"
- else (echo =========== {} : Error ============= >> %USERPROFILE%\Downloads\downloads.log)\""
+%YT% %OPT% "%URL%" --ffmpeg-location "%FF%" --output "%%(title)s.%%(ext)s" --no-overwrites --encoding utf-8 ^
+--exec "cmd /c if exist \"{}\" (echo =========== {} : Download Complete ============= >> \"%USERPROFILE%\Downloads\downloads.log\") else (echo =========== {} : Error ============= >> \"%USERPROFILE%\Downloads\downloads.log\")"
 
 echo.
 echo Files saved in: %DEST%
