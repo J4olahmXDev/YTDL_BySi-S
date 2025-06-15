@@ -46,8 +46,9 @@ esac
 
 cd "$DEST"
 
-yt-dlp $OPT "$URL" --no-overwrites --restrict-filenames \
+yt-dlp $OPT "$URL" --no-overwrites \
     --output "%(title)s.%(ext)s" \
+    --encoding utf-8 \
     --exec 'if [ -f "{}" ]; then echo "=========== {} : โหลดเสร็จสิ้น =============" >> ~/Downloads/downloads.log; else echo "=========== {} : Error =============" >> ~/Downloads/downloads.log; fi'
 
 echo
