@@ -1,0 +1,11 @@
+
+ ============================================================
+  WARNING:
+  - Please avoid using special characters or spaces in the
+    folder name or path.
+  - This includes characters like: ! @ # $ % ^ & * ( ) and spaces
+  - Example of GOOD folder name: C:\Downloads\MyVideos
+  - Example of BAD  folder name: C:\Downloads\My Videos!@#
+ ============================================================
+
+
