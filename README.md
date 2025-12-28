@@ -15,7 +15,7 @@ A simple cross-platform (macOS & Windows) YouTube video/playlist downloader with
 
 ## 🖥 Platforms
 
-- ✅ macOS (tested on Ventura)
+- ✅ macOS (tested on Tahoe)
 - ✅ Windows 10/11
 
 ## 📁 Folder Structure
